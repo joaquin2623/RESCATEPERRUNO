@@ -1,0 +1,37 @@
+
+
+img{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.responsive{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .responsive img {
+      width: 50%;
+    }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    .responsive img {
+      width: 100%;
+    }
+}
+
